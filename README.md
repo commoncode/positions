@@ -1,0 +1,4 @@
+positions
+=========
+
+Platform template positions
