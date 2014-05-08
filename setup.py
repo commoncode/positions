@@ -25,7 +25,7 @@ setup( name='positions',
         'pip',
     ],
     install_requires = [
-        'django-entropy',
-        'platforms',
+        # 'django-entropy',
+        # 'platforms',
     ]
 )
