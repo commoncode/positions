@@ -30,7 +30,7 @@ class Position(CQRSModel, EnabledMixin, SlugUniqueMixin, TitleMixin):
     whereas, the passed in parameter matches the Position.slug, and the necessary template
     helpers or tags are in place provide the right machinery to supply the Displays or Menus.
 
-    Specifying platforms and links, either by inclusion or exclude (default) – limits the
+    Specifying platforms and links, either by inclusion or exclude (default) - limits the
     validity of the Position.
 
     '''
