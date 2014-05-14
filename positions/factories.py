@@ -10,5 +10,6 @@ fake = Factory.create()
 
 class PositionFactory(factory.django.DjangoModelFactory):
     FACTORY_FOR = 'positions.Position'
+    FACTORY_DJANGO_GET_OR_CREATE = ('title', )
 
     title = factory.LazyAttribute(lambda o: words(2, common=False).title())
