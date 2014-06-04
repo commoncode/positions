@@ -14,7 +14,7 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         print "Creating Positions"
 
-        titles = ('Header', 'Aside', 'Feature', 'Footer')
+        titles = ('Home Aside', 'Home Main', 'Feature')
         links = Link.objects.all()
 
         if not links.exists():
