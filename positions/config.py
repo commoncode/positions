@@ -2,7 +2,7 @@ from django.apps import AppConfig
 from django.utils.importlib import import_module
 
 
-class PositionConfig(AppConfig):
+class PositionsConfig(AppConfig):
     name = 'positions'
     verbose_name = 'Positions'
 
